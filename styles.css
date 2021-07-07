@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background:  #f1f1f1;
+    padding: 20px;
+ }
+header {
+    background: white;
+    padding: 20px;
+ }
+ header>h1 {
+    color:black;
+    text-align: center;
+    font-family: sans-serif;
+}
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+
+  .row {
+    margin: 8px -16px;
+  }
+
+  /* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.3333333333333333333%;
+  }
+
+  /* Content */
+  .content {
+    background-color: rgb(255,255,255);
+    padding: 20px;
+    text-align: center;
+   
+  }
+  
+  
+  
