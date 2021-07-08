@@ -8,13 +8,14 @@ body {
     padding: 20px;
  }
 header {
-    background: white;
+    background: #212431;
     padding: 20px;
+    transition: all ease-in-out 0.5s;
  }
  header>h1 {
-    color:black;
+    color:whitesmoke;
     text-align: center;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 .main {
     max-width: 1000px;
@@ -33,22 +34,21 @@ header {
   /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-  padding: 8px;
+  padding: 10px;
 }
 
 /* Create equal columns that floats next to each other */
 .column {
     float: left;
-    width: 33.3333333333333333333%;
+    width: 48%;
+    border: 1px #149ddd;
+    margin: 1px;
+    transition: all ease-in-out 0.5s;
   }
 
   /* Content */
   .content {
-    background-color: rgb(255,255,255);
+    background-color:white;
     padding: 20px;
-    text-align: center;
-   
+    text-align: center;   
   }
-  
-  
-  
